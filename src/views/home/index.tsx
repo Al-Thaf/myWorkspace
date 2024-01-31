@@ -58,8 +58,6 @@ function Home() {
                                     {loc}
                                 </MenuItem>
                             ))}
-
-
                         </Select>
                     </div>
                     <div className='item'>
@@ -98,11 +96,8 @@ function Home() {
                             {vehicle.data.map((v) => (
                                 <FormControlLabel value={v.noOfOwners} control={<Radio />} label={`${v.noOfOwners} Owner`} />
                             ))}
-
-
                         </RadioGroup>
                     </div>
-
                     <div className='item'>
                         <Typography>Transmission</Typography>
                     </div>
@@ -134,7 +129,6 @@ function Home() {
                                 </div>
                             </>
                         ))}
-
                     </div>
                 )}
 

@@ -22,7 +22,7 @@ const LogoView: React.FC = () => {
             const jsonData = await response.json();
             setData(jsonData);
         } catch (error) {
-            console.error('Error fetching JSON data:', error);
+            console.error('Error fetching JSON data ', error);
         }
     };
 
