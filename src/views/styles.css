@@ -1,0 +1,42 @@
+.a {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.form-row {
+  display: block;
+  margin: 5px;
+  width: 100%;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+.btn-div {
+  display: block;
+}
+.form-head {
+  text-align: center;
+}
+.form-area {
+  margin-top: 12px;
+}
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-left: 27px;
+}

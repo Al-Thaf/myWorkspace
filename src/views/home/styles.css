@@ -1,0 +1,15 @@
+.filter-view {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.filter-section > div {
+  padding: 5px;
+}
+.photo-section {
+  margin-left: 50px;
+  width: 700px;
+}
+.view {
+  text-align: left;
+}

@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-item {
+  color: black;
+  cursor: pointer;
+}
+
+.content {
+  background-color: #f7f7f7;
+  margin-top: 50px;
+  padding: 20px;
+}
